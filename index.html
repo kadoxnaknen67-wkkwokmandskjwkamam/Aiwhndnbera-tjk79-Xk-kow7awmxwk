@@ -191,7 +191,7 @@
                     const height = Math.floor(width * ratioH / ratioW);
                     
                     // Generate random seed between 0 and 100000000
-                    const seed = Math.floor(Math.random() * 100000000);
+                    const seed = Math.floor(Math.random() * 1234567890287655428992938829);
                     
                     // Build the API URL
                     const apiUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=${width}&height=${height}&model=${model}&seed=${seed}&nologo=true&enhance=${enhance}`;
